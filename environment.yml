@@ -1,0 +1,13 @@
+name: example-environment
+channels:
+  - pyviz
+  - defaults
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - holoviews
+  - pyct
+  - pip:
+    - git+https://github.com/ioam/param.git@param_mthd_deps
+    - git+https://github.com/ioam/paramnb.git@param_mthd_deps
